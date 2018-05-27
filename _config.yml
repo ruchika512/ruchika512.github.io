@@ -1,7 +1,7 @@
 name: Ruchika Juneja, The Impossible Dream
 title: Ruchika Juneja, The Impossible Dream
-baseurl: "/ruchika512.github.io"
-url: ""
+baseurl: ""
+url: "http://ruchikajuneja.com"
 markdown: kramdown
 theme: jekyll-theme-cayman
 exclude: [vendor]
