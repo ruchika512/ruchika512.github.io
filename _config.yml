@@ -1,6 +1,6 @@
 name: Ruchika Juneja, The Impossible Dream
 title: Ruchika Juneja, The Impossible Dream
-baseurl: ""
+baseurl: "/blog"
 url: "http://ruchikajuneja.com"
 markdown: kramdown
 theme: jekyll-theme-cayman
