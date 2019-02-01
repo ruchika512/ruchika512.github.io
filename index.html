@@ -1,25 +1,33 @@
 <html>
 <head>
-<script src="https://unpkg.com/react@15/dist/react.min.js"> </script><script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
-</script>
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<style>
+.container { 
+  height: 100%;
+  position: relative;
+  border: 0px ; 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
 	<title>Ruchika Juneja</title>
 </head>
-<body bgcolor="silver">
-    <div id="root"></div>
-    <script type="text/babel">
-    class Hello extends React.Component {
-    render() {
-        return <p style="margin:0;position:absolute;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);">
-		<center><font face="arial" color="black"><h1>Ruchika Juneja</h1></font>
+<body bgcolor="#D3D3D3">
+
+<div class="container">
+  <div class="vertical-center">
+  <center>
+<font face="arial" color="black"><h1>Ruchika Juneja</h1></font>
 		<font face="verdana" color="gray"><h4>Renaissance Woman<br />
-		Artist, Photographer, Calligrapher, Techie, UI Designer</h4></font></center></p>;
-   		 }
-	}
-    ReactDOM.render(
-    <Hello />, 
-    document.getElementById("root")
-);
-    </script>
+		Artist, Photographer, Calligrapher, Techie, UI Designer</h4></font>
+     
+        </div>
+        </div>   </center>
 </body>
 </html>
